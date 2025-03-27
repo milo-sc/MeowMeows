@@ -9,11 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        ScrollView {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Why isn't this larger")
+        }
+        .padding()
+        
+        VStack {
+            Text("Test")
+            Text("Test")
+            Text("Test")
+            Text("Test")
+            Text("Test")
         }
         .padding()
     }
