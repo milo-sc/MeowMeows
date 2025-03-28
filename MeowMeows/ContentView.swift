@@ -25,6 +25,12 @@ struct ContentView: View {
             Text("Test")
         }
         .padding()
+        
+        HStack {
+            Text("Test")
+            Text("Test")
+            Text("Test")
+        }
     }
 }
 
